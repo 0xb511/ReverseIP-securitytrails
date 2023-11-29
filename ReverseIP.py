@@ -62,7 +62,7 @@ class NANCY_REV:
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
         }
-        self.working = 0
+        self.working = 1
         self.totaling = len(stars)
     def rsec(self, star):
         star = star.replace("\n", "").replace("\r", "").replace(" ", "")
